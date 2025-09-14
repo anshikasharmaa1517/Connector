@@ -1,6 +1,6 @@
 # 🔍 SourceSense - Elasticsearch Connector for Atlan
 
-A production-grade Elasticsearch metadata extraction application built using Atlan's Application SDK. SourceSense pioneers the HTTP/REST pattern in the Atlan Apps Framework, enabling comprehensive metadata governance for Elasticsearch clusters.
+A Elasticsearch metadata extraction application built using Atlan's Application SDK. 
 
 ## 🎯 Overview
 
