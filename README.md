@@ -267,18 +267,3 @@ SourceSense represents a significant contribution to the Atlan Apps ecosystem:
 - **📋 Best Practices**: Establishes patterns for future REST connectors
 - **🎯 Production Quality**: Enterprise-grade implementation suitable for critical workloads
 
-## 📄 License
-
-Licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-- **Email**: connect@atlan.com
-- **GitHub Issues**: [Report bugs and request features](https://github.com/atlanhq/atlan-sample-apps/issues)
-- **Documentation**: [Comprehensive guides and API reference](https://github.com/atlanhq/application-sdk/docs)
-
----
-
-**Built with ❤️ by the Atlan Apps Team**
-
-_SourceSense - Illuminating your Elasticsearch metadata landscape_
