@@ -118,6 +118,16 @@ class ElasticsearchMetadataExtractionWorkflow(WorkflowInterface):
         )
         
         logger.info(f"Metadata extraction and transformation completed: cluster_info={cluster_info_stats}, indices={indices_stats}, mappings={mappings_stats}, settings={settings_stats}, transform={transform_stats}")
+        
+        # Return workflow results
+        return {
+            "cluster_info": cluster_info_stats,
+            "indices": indices_stats, 
+            "mappings": mappings_stats,
+            "settings": settings_stats,
+            "transform": transform_stats,
+            "total_entities": transform_stats.total_record_count if transform_stats else 0
+        }
 
     @staticmethod
     def get_activities(
