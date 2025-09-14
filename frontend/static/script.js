@@ -304,12 +304,6 @@ async function startMetadataExtraction() {
     connection: {
       name: connectionName,
       description: document.getElementById("connectionDescription").value,
-      environment: document.getElementById("environment").value,
-      tags: document
-        .getElementById("tags")
-        .value.split(",")
-        .map((tag) => tag.trim())
-        .filter((tag) => tag),
     },
     metadata: {
       index_pattern: document.getElementById("indexPattern").value || "*",
