@@ -1,11 +1,10 @@
 # 🔍 SourceSense - Elasticsearch Connector for Atlan
 
-<<<<<<< HEAD
+
 An Elasticsearch metadata extraction application built using Atlan's Application SDK.
 =======
 A Elasticsearch metadata extraction application built using Atlan's Application SDK.
 
-> > > > > > > aa57b6906ea4135747b017fcf2f206d738e19ff0
 
 ## 🎯 Overview
 
